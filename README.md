@@ -1,5 +1,5 @@
 # Orange-sms
- Node library for sending Sms with Orange Sms Api
+ NodeJs library for sending Sms with Orange Sms Api
 
 ## Context
 Those who have already tried to use Orange Africa's SMS sending API have noticed that the documentation on the internet is almost non-existent for both php and Nodejs, and the one on the orange developper website is quite complicated.
