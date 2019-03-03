@@ -5,8 +5,6 @@
 Those who have already tried to use Orange Africa's SMS sending API have noticed that the documentation on the internet is almost non-existent for both php and Nodejs, and the one on the orange developper website is quite complicated.
 This library aims to make the API for sending orange text messages accessible to everyone. with it's abstraction Orange-sms makes it possible for all developers to send sms on NodeJs server.
 
-Translated with www.DeepL.com/Translator
-
 ## Create an Account and App on Orange developper Portal
 1. Go to the [Orange Developper Portal](https://developer.orange.com/) and create your account
 2. Click on my App and create your Orange App
@@ -40,3 +38,4 @@ const orangeSms = require('./orangeSms.js');
         console.log(error);
       });
  ```
+ You can use [Async/Await](https://javascript.info/async-await) if you want, it's on your discretion
