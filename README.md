@@ -9,4 +9,6 @@
 5. When it's done click on show button and get the value of Authorization header field, we need to use that later
 
 ## Install the Orange-sms library
-1. Get the Orange-sms folder(by clone or download)
+* Get the Orange-sms folder(by clone or download) and put it on the server folder(you have to put all the files inside one folder, ideally the vendors folder)
+
+## How it's works
