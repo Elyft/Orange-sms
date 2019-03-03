@@ -29,7 +29,7 @@ const orangeSms = require('./orangeSms.js');
       orangeSms(options)
       .then((responseOrangeSms)=>{
         console.log(responseOrangeSms); 
-        /* Should output a Json message like {message:sms sent},{message:401} (401 is an exemple status code of an error if you want the complete list check https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP),
+        /* Should output an object like {message:sms sent},{message:401} (401 is an exemple status code of an error if you want the complete list check https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP),
            {message:You have to provide all the keys of the object},{message:the object key must not have a value like null or undefined}
            {message:One or more object keys are incorrectly written}, {message: The parameter must be an object}
            You can interpret the message and continue to write your code 
@@ -38,4 +38,4 @@ const orangeSms = require('./orangeSms.js');
         console.log(error);
       });
  ```
- You can use [Async/Await](https://javascript.info/async-await) if you want, it's on your discretion
+ You can use [Async/Await](https://javascript.info/async-await) if you want, it's on your discretion.
