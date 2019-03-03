@@ -28,7 +28,7 @@ const options = {
   sender_phone: xxxxxxxxx, // Number; Your number without the area code, this number must be the same that you entered for your registration on Orange website
   sms_body: "Hello what's up?" // String; Your message text to send, not much than 160 characters otherwise Orange will cut it
 };
-const orangeSms = require('./orangeSms.js');
+const orangeSms = require('./orangeSms.js') // The path inside require() depends on how your app folder structure is;
       orangeSms(options)
       .then((responseOrangeSms)=>{
         console.log(responseOrangeSms); 
