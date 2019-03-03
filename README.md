@@ -12,3 +12,4 @@
 * Get the Orange-sms folder(by clone or download) and put it on the server folder(you have to put all the files inside one folder, ideally the vendors folder)
 
 ## How it's works
+Somewhere inside your code you have to write this:
