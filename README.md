@@ -1,6 +1,12 @@
 # Orange-sms
  Node library for sending Sms with Orange Sms Api
 
+## Context
+Those who have already tried to use Orange Africa's SMS sending API have noticed that the documentation on the internet is almost non-existent for both php and Nodejs, and the one on the orange developper website is quite complicated.
+This library aims to make the API for sending orange text messages accessible to everyone. with it's abstraction Orange-sms makes it possible for all developers to send sms on NodeJs server.
+
+Translated with www.DeepL.com/Translator
+
 ## Create an Account and App on Orange developper Portal
 1. Go to the [Orange Developper Portal](https://developer.orange.com/) and create your account
 2. Click on my App and create your Orange App
@@ -15,11 +21,11 @@
 Somewhere inside your code you have to write this:
 ```javascript
 const options = {
-  authorization_header:"Basic eHYxbkd0OUZqYUZGWFJ1cmZUR3h6bml5ZEhFQTlxR3U6MmIwQXBsM3VQaDhxek9MMg==", // String; Must be in this form Basic xxxxxxxxxxxxxxxx take it on your Orange Application
-  area_code:"+237", // String; Telephony code of your country Ex: +237
-  sender_number: 669341994, // Number; The number to which you are sending a message without area code
-  sender_phone: 697644414, // Number; Your number without the area code, this number must be the same that you entered for your registration on Orange website
-  sms_body: "Bonjour comment allez vous" // String; Your message text to send
+  authorization_header:"Put your Authorization header here", // String; Must be in this form Basic xxxxxxxxxxxxxxxx take it on your Orange Application
+  area_code:"+xxx", // String; Telephony code of your country Ex: +237
+  sender_number: xxxxxxxxxx, // Number; The number to which you are sending a message without area code
+  sender_phone: xxxxxxxxx, // Number; Your number without the area code, this number must be the same that you entered for your registration on Orange website
+  sms_body: "Hello what's up?" // String; Your message text to send, not much than 160 characters otherwise Orange will cut it
 };
 const orangeSms = require('./orangeSms.js');
       orangeSms(options)
