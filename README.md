@@ -1,9 +1,12 @@
 # Orange-sms
- NodeJs library for sending Sms with Orange Sms Api
+ NodeJs library for sending Sms with Orange Sms Api(require NodeJs 7.0.0 and newer)
 
 ## Context
 Those who have already tried to use Orange Africa's SMS sending API have noticed that the documentation on the internet is almost non-existent for both php and Nodejs, and the one on the orange developper website is quite complicated.
 This library aims to make the API for sending orange text messages accessible to everyone. with it's abstraction Orange-sms makes it possible for all developers to send sms on NodeJs server.
+
+## Dependencies
+if you have not already installed [request node module](https://www.npmjs.com/package/request) do it like this <strong>npm install request</strong> or add this line "request": "^2.85.0" on your package.json file.
 
 ## Create an Account and App on Orange developper Portal
 1. Go to the [Orange Developper Portal](https://developer.orange.com/) and create your account
@@ -39,3 +42,6 @@ const orangeSms = require('./orangeSms.js');
       });
  ```
  You can use [Async/Await](https://javascript.info/async-await) if you want, it's on your discretion.
+
+## Further documentation
+(https://developer.orange.com/apis/sms/getting-started)
