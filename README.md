@@ -45,3 +45,8 @@ const orangeSms = require('./orangeSms.js') // The path inside require() depends
 
 ## Further documentation
 (https://developer.orange.com/apis/sms/getting-started)
+
+## Author
+<strong>Nguetseng Stephane</strong>
+<strong>Tel:</strong> +237669341994
+
