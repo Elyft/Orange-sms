@@ -6,7 +6,7 @@ module.exports = (orangeAuthorizationHeader)=>{
       postData += "grant_type=client_credentials";
         let options = {
             host: 'api.orange.com',
-            path: '/oauth/v2/token'
+            path: '/oauth/v3/token'
         };
         options['method'] = 'POST';
         options['headers'] = {
